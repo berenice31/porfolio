@@ -1,0 +1,56 @@
+@import 'src/styles/vars';
+
+.header {
+  width: 100%;
+  position: relative;
+  &-image{
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.nav{
+  background-color: rgba(255, 255, 255, 0.199);
+  position: absolute;
+  top: $gutter*3;
+  left: 0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  &-item{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px $gutter*2;
+    padding: $gutter*2;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: white;
+  }
+  &-item:hover{
+    color: $main-color;
+    transition-duration: 0.4s;
+  }
+}
+
+.contact {
+  position: absolute;
+  top: $gutter;
+  right: $gutter;
+  display: flex;
+
+  &-item{
+    margin: 0px $gutter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    &-text{
+      padding-left: $gutter/2;
+    }
+  }
+}
+
+.mail:hover {
+  color:$main-color;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
