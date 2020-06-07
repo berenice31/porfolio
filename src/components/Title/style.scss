@@ -1,0 +1,78 @@
+@import 'src/styles/vars';
+
+/**
+ * ----------------------------------------
+ * animation text-shadow-pop-bl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-shadow-pop-bl {
+  0% {
+    text-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px 1px black, -2px 2px black, -3px 3px black, -4px 4px black, -5px 5px black, -6px 6px black, -7px 7px black, -8px 8px black;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+@keyframes text-shadow-pop-bl {
+  0% {
+    text-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px 1px black, -2px 2px black, -3px 3px black, -4px 4px black, -5px 5px black, -6px 6px black, -7px 7px black, -8px 8px black;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ *
+ * ----------------------------------------
+ */
+
+
+.presentation {
+  font-family: 'Roboto Slab', serif;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 3em;
+}
+
+.Typewriter{
+  margin-bottom: 5rem;
+}
+
+.presentation-name{
+  font-size: 4em;
+  color: white;
+  margin: $gutter*2 0px;
+}
+.text-shadow-pop-bl {
+	-webkit-animation: text-shadow-pop-bl 0.8s ease-in 3s both;
+	        animation: text-shadow-pop-bl 0.8s ease-in 3s both;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color:white;
+  &-icon {
+    width: 100%;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+}

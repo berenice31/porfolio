@@ -59,6 +59,7 @@
     "react-dom": "*",
     "react-redux": "*",
     "redux": "*",
-    "styled-components": "*"
+    "styled-components": "*",
+    "typewriter-effect": "^2.13.1"
   }
 }

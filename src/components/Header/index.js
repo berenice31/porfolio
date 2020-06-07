@@ -9,7 +9,7 @@ const Header = () => (
       <img className="header-image" src={photo} alt="espace de travail" />
     </div>
     <div className="contact">
-      <p className="contact-item"> 
+      <p className="contact-item">
         <ion-icon name="call-outline" className="contact-item-icon" />    <p className="contact-item-text">06.29.68.13.36</p>
       </p>
       <p className="contact-item">
@@ -18,7 +18,7 @@ const Header = () => (
     </div>
     <nav className="nav">
       <a href=""><p className="nav-item"> <ion-icon name="home-outline" /></p></a>
-      <a href=""><p className="nav-item"> Mon parcours</p></a>
+      <a href=""><p className="nav-item"> A propos </p></a>
       <a href=""><p className="nav-item"> Compétences</p></a>
       <a href=""><p className="nav-item"> Mes projets </p></a>
       <a href=""><p className="nav-item"> Contact </p></a>
